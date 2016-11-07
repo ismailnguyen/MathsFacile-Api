@@ -12,7 +12,7 @@ namespace MathsFacileApi.Controllers
         [HttpGet("{value}")]
         public object Get(string value)
         {
-            return new DataTable().Compute(value, "");
+            return "Result: " + new DataTable().Compute(value, "");
         }
 
         // POST /calcul
