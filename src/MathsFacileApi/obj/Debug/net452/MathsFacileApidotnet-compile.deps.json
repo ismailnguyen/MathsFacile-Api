@@ -1,7 +1,7 @@
 {
   "runtimeTarget": {
     "name": ".NETFramework,Version=v4.5.2/",
-    "signature": "be9ea37e7499278cdf1f14acaa2a977dedcede52"
+    "signature": "947948360f2c29ccb5afd626df78861dac2329f3"
   },
   "compilationOptions": {
     "defines": [
@@ -30,22 +30,10 @@
           "Microsoft.Extensions.Logging.Debug": "1.0.0",
           "Microsoft.Extensions.Options.ConfigurationExtensions": "1.0.0",
           "System.Data.Common": "4.1.0",
-          "System.Net.Http": "4.0.0.0",
-          "xunit": "2.1.0",
-          "dotnet-test-xunit": "1.0.0-rc2-build10015"
+          "System.Net.Http": "4.0.0.0"
         },
         "compile": {
           "MathsFacileApi.exe": {}
-        }
-      },
-      "dotnet-test-xunit/1.0.0-rc2-build10015": {
-        "dependencies": {
-          "Microsoft.Extensions.Testing.Abstractions": "1.0.0-preview1-002702",
-          "xunit.runner.reporters": "2.1.0",
-          "System.Threading.Tasks": "4.0.0.0"
-        },
-        "compile": {
-          "lib/net451/dotnet-test-xunit.exe": {}
         }
       },
       "Libuv/1.9.0": {
@@ -544,27 +532,9 @@
           ".NETFramework/v4.5.2/Microsoft.CSharp.dll": {}
         }
       },
-      "Microsoft.DiaSymReader/1.0.6": {
-        "compile": {
-          "lib/net20/Microsoft.DiaSymReader.dll": {}
-        }
-      },
-      "Microsoft.DiaSymReader.Native/1.3.3": {},
       "Microsoft.DotNet.InternalAbstractions/1.0.0": {
         "compile": {
           "lib/net451/Microsoft.DotNet.InternalAbstractions.dll": {}
-        }
-      },
-      "Microsoft.DotNet.ProjectModel/1.0.0-rc2-002702": {
-        "dependencies": {
-          "Microsoft.Extensions.DependencyModel": "1.0.0",
-          "Newtonsoft.Json": "9.0.1",
-          "NuGet.Packaging": "3.5.0-beta-final",
-          "NuGet.RuntimeModel": "3.5.0-beta-final",
-          "System.Reflection.Metadata": "1.3.0"
-        },
-        "compile": {
-          "lib/net451/Microsoft.DotNet.ProjectModel.dll": {}
         }
       },
       "Microsoft.Extensions.Caching.Abstractions/1.0.0": {
@@ -854,17 +824,6 @@
           "lib/netstandard1.0/Microsoft.Extensions.Primitives.dll": {}
         }
       },
-      "Microsoft.Extensions.Testing.Abstractions/1.0.0-preview1-002702": {
-        "dependencies": {
-          "Microsoft.DiaSymReader": "1.0.6",
-          "Microsoft.DiaSymReader.Native": "1.3.3",
-          "Microsoft.DotNet.ProjectModel": "1.0.0-rc2-002702",
-          "Newtonsoft.Json": "9.0.1"
-        },
-        "compile": {
-          "lib/net451/Microsoft.Extensions.Testing.Abstractions.dll": {}
-        }
-      },
       "Microsoft.Extensions.WebEncoders/1.0.0": {
         "dependencies": {
           "Microsoft.Extensions.DependencyInjection.Abstractions": "1.0.0",
@@ -894,71 +853,6 @@
       "Newtonsoft.Json/9.0.1": {
         "compile": {
           "lib/net45/Newtonsoft.Json.dll": {}
-        }
-      },
-      "NuGet.Common/3.5.0-beta-final": {
-        "dependencies": {
-          "Microsoft.CSharp": "4.0.0.0",
-          "System": "4.0.0.0",
-          "System.Core": "4.0.0.0",
-          "System.IO.Compression": "4.0.0.0"
-        },
-        "compile": {
-          "lib/net45/NuGet.Common.dll": {}
-        }
-      },
-      "NuGet.Frameworks/3.5.0-beta-final": {
-        "dependencies": {
-          "NuGet.Versioning": "3.5.0-beta-final"
-        },
-        "compile": {
-          "lib/net45/NuGet.Frameworks.dll": {}
-        }
-      },
-      "NuGet.Packaging/3.5.0-beta-final": {
-        "dependencies": {
-          "NuGet.Common": "3.5.0-beta-final",
-          "NuGet.Packaging.Core": "3.5.0-beta-final",
-          "System.IO.Compression": "4.0.0.0",
-          "System.Xml": "4.0.0.0",
-          "System.Xml.Linq": "4.0.0.0"
-        },
-        "compile": {
-          "lib/net45/NuGet.Packaging.dll": {}
-        }
-      },
-      "NuGet.Packaging.Core/3.5.0-beta-final": {
-        "dependencies": {
-          "NuGet.Packaging.Core.Types": "3.5.0-beta-final",
-          "System.IO.Compression": "4.0.0.0",
-          "System.Xml": "4.0.0.0",
-          "System.Xml.Linq": "4.0.0.0"
-        },
-        "compile": {
-          "lib/net45/NuGet.Packaging.Core.dll": {}
-        }
-      },
-      "NuGet.Packaging.Core.Types/3.5.0-beta-final": {
-        "dependencies": {
-          "NuGet.Frameworks": "3.5.0-beta-final"
-        },
-        "compile": {
-          "lib/net45/NuGet.Packaging.Core.Types.dll": {}
-        }
-      },
-      "NuGet.RuntimeModel/3.5.0-beta-final": {
-        "dependencies": {
-          "Newtonsoft.Json": "9.0.1",
-          "NuGet.Frameworks": "3.5.0-beta-final",
-          "NuGet.Versioning": "3.5.0-beta-final"
-        },
-        "compile": {
-          "lib/net45/NuGet.RuntimeModel.dll": {}
-        }
-      },
-      "NuGet.Versioning/3.5.0-beta-final": {
-        "compile": {
-          "lib/net45/NuGet.Versioning.dll": {}
         }
       },
       "System.Buffers/4.0.0": {
@@ -1147,60 +1041,6 @@
           "lib/portable-net45+win8+wp8+wpa81/System.Threading.Tasks.Extensions.dll": {}
         }
       },
-      "xunit/2.1.0": {
-        "dependencies": {
-          "xunit.assert": "2.1.0",
-          "xunit.core": "2.1.0"
-        }
-      },
-      "xunit.abstractions/2.0.0": {
-        "compile": {
-          "lib/net35/xunit.abstractions.dll": {}
-        }
-      },
-      "xunit.assert/2.1.0": {
-        "compile": {
-          "lib/dotnet/xunit.assert.dll": {}
-        }
-      },
-      "xunit.core/2.1.0": {
-        "dependencies": {
-          "xunit.extensibility.core": "2.1.0",
-          "xunit.extensibility.execution": "2.1.0"
-        }
-      },
-      "xunit.extensibility.core/2.1.0": {
-        "dependencies": {
-          "xunit.abstractions": "2.0.0"
-        },
-        "compile": {
-          "lib/dotnet/xunit.core.dll": {}
-        }
-      },
-      "xunit.extensibility.execution/2.1.0": {
-        "dependencies": {
-          "xunit.extensibility.core": "2.1.0"
-        },
-        "compile": {
-          "lib/net45/xunit.execution.desktop.dll": {}
-        }
-      },
-      "xunit.runner.reporters/2.1.0": {
-        "dependencies": {
-          "xunit.runner.utility": "2.1.0"
-        },
-        "compile": {
-          "lib/net45/xunit.runner.reporters.desktop.dll": {}
-        }
-      },
-      "xunit.runner.utility/2.1.0": {
-        "dependencies": {
-          "xunit.abstractions": "2.0.0"
-        },
-        "compile": {
-          "lib/net35/xunit.runner.utility.desktop.dll": {}
-        }
-      },
       "mscorlib/4.0.0.0": {
         "compile": {
           ".NETFramework/v4.5.2/mscorlib.dll": {}
@@ -1236,11 +1076,6 @@
           ".NETFramework/v4.5.2/System.ComponentModel.DataAnnotations.dll": {}
         }
       },
-      "System.IO.Compression/4.0.0.0": {
-        "compile": {
-          ".NETFramework/v4.5.2/System.IO.Compression.dll": {}
-        }
-      },
       "System.Data/4.0.0.0": {
         "compile": {
           ".NETFramework/v4.5.2/System.Data.dll": {}
@@ -1273,22 +1108,10 @@
           "Microsoft.Extensions.Logging.Debug": "1.0.0",
           "Microsoft.Extensions.Options.ConfigurationExtensions": "1.0.0",
           "System.Data.Common": "4.1.0",
-          "System.Net.Http": "4.0.0.0",
-          "xunit": "2.1.0",
-          "dotnet-test-xunit": "1.0.0-rc2-build10015"
+          "System.Net.Http": "4.0.0.0"
         },
         "runtime": {
           "MathsFacileApi.exe": {}
-        }
-      },
-      "dotnet-test-xunit/1.0.0-rc2-build10015": {
-        "dependencies": {
-          "Microsoft.Extensions.Testing.Abstractions": "1.0.0-preview1-002702",
-          "xunit.runner.reporters": "2.1.0",
-          "System.Threading.Tasks": "4.0.0.0"
-        },
-        "runtime": {
-          "lib/net451/dotnet-test-xunit.exe": {}
         }
       },
       "Libuv/1.9.0": {
@@ -1783,27 +1606,9 @@
         }
       },
       "Microsoft.CSharp/4.0.0.0": {},
-      "Microsoft.DiaSymReader/1.0.6": {
-        "runtime": {
-          "lib/net20/Microsoft.DiaSymReader.dll": {}
-        }
-      },
-      "Microsoft.DiaSymReader.Native/1.3.3": {},
       "Microsoft.DotNet.InternalAbstractions/1.0.0": {
         "runtime": {
           "lib/net451/Microsoft.DotNet.InternalAbstractions.dll": {}
-        }
-      },
-      "Microsoft.DotNet.ProjectModel/1.0.0-rc2-002702": {
-        "dependencies": {
-          "Microsoft.Extensions.DependencyModel": "1.0.0",
-          "Newtonsoft.Json": "9.0.1",
-          "NuGet.Packaging": "3.5.0-beta-final",
-          "NuGet.RuntimeModel": "3.5.0-beta-final",
-          "System.Reflection.Metadata": "1.3.0"
-        },
-        "runtime": {
-          "lib/net451/Microsoft.DotNet.ProjectModel.dll": {}
         }
       },
       "Microsoft.Extensions.Caching.Abstractions/1.0.0": {
@@ -2093,17 +1898,6 @@
           "lib/netstandard1.0/Microsoft.Extensions.Primitives.dll": {}
         }
       },
-      "Microsoft.Extensions.Testing.Abstractions/1.0.0-preview1-002702": {
-        "dependencies": {
-          "Microsoft.DiaSymReader": "1.0.6",
-          "Microsoft.DiaSymReader.Native": "1.3.3",
-          "Microsoft.DotNet.ProjectModel": "1.0.0-rc2-002702",
-          "Newtonsoft.Json": "9.0.1"
-        },
-        "runtime": {
-          "lib/net451/Microsoft.Extensions.Testing.Abstractions.dll": {}
-        }
-      },
       "Microsoft.Extensions.WebEncoders/1.0.0": {
         "dependencies": {
           "Microsoft.Extensions.DependencyInjection.Abstractions": "1.0.0",
@@ -2133,71 +1927,6 @@
       "Newtonsoft.Json/9.0.1": {
         "runtime": {
           "lib/net45/Newtonsoft.Json.dll": {}
-        }
-      },
-      "NuGet.Common/3.5.0-beta-final": {
-        "dependencies": {
-          "Microsoft.CSharp": "4.0.0.0",
-          "System": "4.0.0.0",
-          "System.Core": "4.0.0.0",
-          "System.IO.Compression": "4.0.0.0"
-        },
-        "runtime": {
-          "lib/net45/NuGet.Common.dll": {}
-        }
-      },
-      "NuGet.Frameworks/3.5.0-beta-final": {
-        "dependencies": {
-          "NuGet.Versioning": "3.5.0-beta-final"
-        },
-        "runtime": {
-          "lib/net45/NuGet.Frameworks.dll": {}
-        }
-      },
-      "NuGet.Packaging/3.5.0-beta-final": {
-        "dependencies": {
-          "NuGet.Common": "3.5.0-beta-final",
-          "NuGet.Packaging.Core": "3.5.0-beta-final",
-          "System.IO.Compression": "4.0.0.0",
-          "System.Xml": "4.0.0.0",
-          "System.Xml.Linq": "4.0.0.0"
-        },
-        "runtime": {
-          "lib/net45/NuGet.Packaging.dll": {}
-        }
-      },
-      "NuGet.Packaging.Core/3.5.0-beta-final": {
-        "dependencies": {
-          "NuGet.Packaging.Core.Types": "3.5.0-beta-final",
-          "System.IO.Compression": "4.0.0.0",
-          "System.Xml": "4.0.0.0",
-          "System.Xml.Linq": "4.0.0.0"
-        },
-        "runtime": {
-          "lib/net45/NuGet.Packaging.Core.dll": {}
-        }
-      },
-      "NuGet.Packaging.Core.Types/3.5.0-beta-final": {
-        "dependencies": {
-          "NuGet.Frameworks": "3.5.0-beta-final"
-        },
-        "runtime": {
-          "lib/net45/NuGet.Packaging.Core.Types.dll": {}
-        }
-      },
-      "NuGet.RuntimeModel/3.5.0-beta-final": {
-        "dependencies": {
-          "Newtonsoft.Json": "9.0.1",
-          "NuGet.Frameworks": "3.5.0-beta-final",
-          "NuGet.Versioning": "3.5.0-beta-final"
-        },
-        "runtime": {
-          "lib/net45/NuGet.RuntimeModel.dll": {}
-        }
-      },
-      "NuGet.Versioning/3.5.0-beta-final": {
-        "runtime": {
-          "lib/net45/NuGet.Versioning.dll": {}
         }
       },
       "System.Buffers/4.0.0": {
@@ -2294,60 +2023,6 @@
           "lib/portable-net45+win8+wp8+wpa81/System.Threading.Tasks.Extensions.dll": {}
         }
       },
-      "xunit/2.1.0": {
-        "dependencies": {
-          "xunit.assert": "2.1.0",
-          "xunit.core": "2.1.0"
-        }
-      },
-      "xunit.abstractions/2.0.0": {
-        "runtime": {
-          "lib/net35/xunit.abstractions.dll": {}
-        }
-      },
-      "xunit.assert/2.1.0": {
-        "runtime": {
-          "lib/dotnet/xunit.assert.dll": {}
-        }
-      },
-      "xunit.core/2.1.0": {
-        "dependencies": {
-          "xunit.extensibility.core": "2.1.0",
-          "xunit.extensibility.execution": "2.1.0"
-        }
-      },
-      "xunit.extensibility.core/2.1.0": {
-        "dependencies": {
-          "xunit.abstractions": "2.0.0"
-        },
-        "runtime": {
-          "lib/dotnet/xunit.core.dll": {}
-        }
-      },
-      "xunit.extensibility.execution/2.1.0": {
-        "dependencies": {
-          "xunit.extensibility.core": "2.1.0"
-        },
-        "runtime": {
-          "lib/net45/xunit.execution.desktop.dll": {}
-        }
-      },
-      "xunit.runner.reporters/2.1.0": {
-        "dependencies": {
-          "xunit.runner.utility": "2.1.0"
-        },
-        "runtime": {
-          "lib/net45/xunit.runner.reporters.desktop.dll": {}
-        }
-      },
-      "xunit.runner.utility/2.1.0": {
-        "dependencies": {
-          "xunit.abstractions": "2.0.0"
-        },
-        "runtime": {
-          "lib/net35/xunit.runner.utility.desktop.dll": {}
-        }
-      },
       "mscorlib/4.0.0.0": {},
       "System/4.0.0.0": {},
       "System.Core/4.0.0.0": {},
@@ -2355,7 +2030,6 @@
       "System.Xml/4.0.0.0": {},
       "System.Xml.Linq/4.0.0.0": {},
       "System.ComponentModel.DataAnnotations/4.0.0.0": {},
-      "System.IO.Compression/4.0.0.0": {},
       "System.Data/4.0.0.0": {},
       "System.Diagnostics.Tracing/4.0.10.0": {},
       "System.Reflection.Primitives/4.0.0.0": {}
@@ -2366,11 +2040,6 @@
       "type": "project",
       "serviceable": false,
       "sha512": ""
-    },
-    "dotnet-test-xunit/1.0.0-rc2-build10015": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-2traZWYeJiFzau+1j9HcnSZ3rQLDyIrqKyYKCTbPPmu6lsQAtaOG5q+fuKS9Vaxczmh0IcvZ2hdWEuYmtVb9zw=="
     },
     "Libuv/1.9.0": {
       "type": "package",
@@ -2612,25 +2281,10 @@
       "serviceable": false,
       "sha512": ""
     },
-    "Microsoft.DiaSymReader/1.0.6": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-ai2eBJrXlHa0hecUKnEyacH0iXxGNOMpc9X0s7VAeqqh5TSTW70QMhTRZ0FNCtf3R/W67K4a+uf3R7MASmAjrg=="
-    },
-    "Microsoft.DiaSymReader.Native/1.3.3": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-mjATkm+L2UlP35gO/ExNutLDfgX4iiwz1l/8sYVoeGHp5WnkEDu0NfIEsC4Oy/pCYeRw0/6SGB+kArJVNNvENQ=="
-    },
     "Microsoft.DotNet.InternalAbstractions/1.0.0": {
       "type": "package",
       "serviceable": true,
       "sha512": "sha512-AAguUq7YyKk3yDWPoWA8DrLZvURxB/LrDdTn1h5lmPeznkFUpfC3p459w5mQYQE0qpquf/CkSQZ0etiV5vRHFA=="
-    },
-    "Microsoft.DotNet.ProjectModel/1.0.0-rc2-002702": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-ryslqqMpPRcJma9kJn3V1/GydzUny6i6xfpQ0cqfWmlPdSQ9Hnh6x2l8yVqU+ueCiVffKWn/Or80moLwroXP/A=="
     },
     "Microsoft.Extensions.Caching.Abstractions/1.0.0": {
       "type": "package",
@@ -2772,11 +2426,6 @@
       "serviceable": true,
       "sha512": "sha512-3q2vzfKEDjL6JFkRpk5SFA3zarYsO6+ZYgoucNImrUMzDn0mFbEOL5p9oPoWiypwypbJVVjWTf557bXZ0YFLig=="
     },
-    "Microsoft.Extensions.Testing.Abstractions/1.0.0-preview1-002702": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-NE4Efz4kvkztJ80CSifUlP0UaBP4iOOaeTVk6nrj+ZIJzhsRGLbecIe4oX8G82pkCkqFF9i8KTl7YYUwpQY5Wg=="
-    },
     "Microsoft.Extensions.WebEncoders/1.0.0": {
       "type": "package",
       "serviceable": true,
@@ -2796,41 +2445,6 @@
       "type": "package",
       "serviceable": true,
       "sha512": "sha512-U82mHQSKaIk+lpSVCbWYKNavmNH1i5xrExDEquU1i6I5pV6UMOqRnJRSlKO3cMPfcpp0RgDY+8jUXHdQ4IfXvw=="
-    },
-    "NuGet.Common/3.5.0-beta-final": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-7eCg4ky9NtTnxY1+2VtDKIYX137QejH8Dsuw6fENU53N6OeoROsrv1MUm0pu4e3TF8VH1eL5G3Vx/G30VdXEDg=="
-    },
-    "NuGet.Frameworks/3.5.0-beta-final": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-Si7O1OFxUryBq3xuq2AIwADM8WUMIBQOmUdTJBSaxV+KesShLJfgrr7Dl+Tg/nVETSEArJS8ktscv7gjKqtosg=="
-    },
-    "NuGet.Packaging/3.5.0-beta-final": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-wJSrtokTPmpIkNhJLiG5GPxdRFCVl6XB3MmgLCyRhD2O2wZVQqvvL6SELOz/61EU0C8m9ni/UiiNRqTEtH5QZw=="
-    },
-    "NuGet.Packaging.Core/3.5.0-beta-final": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-sdc8dUnbjEpNzIK5h5frJgn7ARQjQLdXMC5YrMHoEh0sCJnd2p1Lu4JvHK7mqn/MurVCAvoAjNDyazzFaVCD0w=="
-    },
-    "NuGet.Packaging.Core.Types/3.5.0-beta-final": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-35AVdtLFJFp66CI9EDS61iviOe4UsCwfGh7RILK3j2ihZtlbTIIS5ygjmS8GnTkhNpmdwQRIk/rUempv4ABBxQ=="
-    },
-    "NuGet.RuntimeModel/3.5.0-beta-final": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-5opNw7zHG5wC0Qx9AzlopdPg48Tf/QVcVVKmPRuwUa3VBA1b9DBjY+1jCkaof8JRzyHZqLnxd6T9BuT98Jk0YQ=="
-    },
-    "NuGet.Versioning/3.5.0-beta-final": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-fwFF9Mck1hgZVDvvJLU81gcaidMksfRoCwyjBALEXxnp1fJr4xLyGbTRdbf2OKI5OODGuUpxaMkcz7P4T8HsXw=="
     },
     "System.Buffers/4.0.0": {
       "type": "package",
@@ -3002,46 +2616,6 @@
       "serviceable": true,
       "sha512": "sha512-pH4FZDsZQ/WmgJtN4LWYmRdJAEeVkyriSwrv2Teoe5FOU0Yxlb6II6GL8dBPOfRmutHGATduj3ooMt7dJ2+i+w=="
     },
-    "xunit/2.1.0": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-u/7VQSOSXa7kSG4iK6Lcn7RqKZQ3hk7cnyMNVMpXHSP0RI5VQEtc44hvkG3LyWOVsx1dhUDD3rPAHAxyOUDQJw=="
-    },
-    "xunit.abstractions/2.0.0": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-NAdxKQRzuLnCZ0g++x6i87/8rMBpQoRiRlRNLAqfODm2zJPbteHRoSER3DXfxnqrHXyBJT8rFaZ8uveBeQyaMA=="
-    },
-    "xunit.assert/2.1.0": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-Hhhw+YaTe+BGhbr57dxVE+6VJk8BfThqFFii1XIsSZ4qx+SSCixprJC10JkiLRVSTfWyT8W/4nAf6NQgIrmBxA=="
-    },
-    "xunit.core/2.1.0": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-jlbYdPbnkPIRwJllcT/tQZCNsSElVDEymdpJfH79uTUrPARkELVYw9o/zhAjKZXmeikGqGK5C2Yny4gTNoEu0Q=="
-    },
-    "xunit.extensibility.core/2.1.0": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-ANWM3WxeaeHjACLRlmrv+xOc0WAcr3cvIiJE+gqbdzTv1NCH4p1VDyT+8WmmdCc9db0WFiJLaDy4YTYsL1wWXw=="
-    },
-    "xunit.extensibility.execution/2.1.0": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-tAoNafoVknKa3sZJPMvtZRnhOSk3gasEGeceSm7w/gyGwsR/OXFxndWJB1xSHeoy33d3Z6jFqn4A3j+pWCF0Ew=="
-    },
-    "xunit.runner.reporters/2.1.0": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-ja0kJrvwSiho2TRFpfHfa+6tGJI5edcyD8fdekTkjn7Us17PbGqglIihRe8sR9YFAmS4ipEC8+7CXOM/b69ENQ=="
-    },
-    "xunit.runner.utility/2.1.0": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-jJJHROwskIhdQuYw7exe7KaW20dOCa+lzV/lY7Zdh1ZZzdUPpScMi9ReJIutqiyjhemGF8V/GaMIPrcjyZ4ioQ=="
-    },
     "mscorlib/4.0.0.0": {
       "type": "referenceassembly",
       "serviceable": false,
@@ -3073,11 +2647,6 @@
       "sha512": ""
     },
     "System.ComponentModel.DataAnnotations/4.0.0.0": {
-      "type": "referenceassembly",
-      "serviceable": false,
-      "sha512": ""
-    },
-    "System.IO.Compression/4.0.0.0": {
       "type": "referenceassembly",
       "serviceable": false,
       "sha512": ""
