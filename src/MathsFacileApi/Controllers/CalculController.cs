@@ -19,7 +19,7 @@ namespace MathsFacileApi.Controllers
         [HttpPost]
         public object Post([FromBody] string value)
         {
-            return new DataTable().Compute("Result is" + value, "");
+            return new DataTable().Compute(value, "");
         }
     }
 }
